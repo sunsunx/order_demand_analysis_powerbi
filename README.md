@@ -1,2 +1,11 @@
-# order_demand_analysis_powerbi
-Power BI dashboard for order demand and sales performance analysis
+## Dashboard Preview
+
+![Dashboard Preview](dashboard-preview.png)
+
+## Full Report
+
+[Download the full PDF report](sales-dashboard.pdf)
+
+## Data Model
+
+![Data Model](data-model.png)
