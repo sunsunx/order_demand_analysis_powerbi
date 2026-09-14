@@ -1,8 +1,8 @@
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard-preview.png)
+![Dashboard Preview](dashboard_preview.png)
 
 
 ## Data Model
 
-![Data Model](data-model.png)
+![Data Model](data_model.png)
