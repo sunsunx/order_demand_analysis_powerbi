@@ -6,22 +6,28 @@ This project analyzes order-level sales data using Power BI.
 
 The dashboard focuses on regional demand, product performance, category contribution, discount impact, and monthly revenue trends. The analysis demonstrates how transactional data can support demand planning, inventory prioritization, and operational decision-making.
 
-
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard_preview.png)
-
+![Dashboard Preview](dashboard-preview.png)
 
 ## Data Model
 
-![Data Model](data_model.png)
+The Power BI model uses a star-schema approach with:
+
+- Date dimension
+- Product dimension
+- Customer dimension
+- Region dimension
+- Order-level sales fact table
+
+![Data Model](data-model.png)
 
 ## Key Metrics
 
 - Total Revenue: $114.75K
 - Total Orders: 120
 - Average Order Value: $956.27
-- Units Sold: calculated from the quantity field
+- Units Sold: 537
 
 ## Key Insights
 
@@ -58,18 +64,6 @@ The dataset includes the following fields:
 - `discount`
 - `revenue`
 
-## Data Model
-
-The Power BI model uses a star-schema approach with:
-
-- Date dimension
-- Product dimension
-- Customer dimension
-- Region dimension
-- Order-level sales fact table
-
-![Data Model](data-model.png)
-
 ## Tools
 
 - Power BI
@@ -80,15 +74,15 @@ The Power BI model uses a star-schema approach with:
 
 ## Measures
 
-The dashboard includes the following measures:
-
 ```DAX
 Total Revenue =
 SUM('sales_day1_practice 2'[revenue])
 
 Total Orders =
 DISTINCTCOUNT('sales_day1_practice 2'[order_id])
+
 Units Sold =
 SUM('sales_day1_practice 2'[quantity])
+
 Average Order Value =
 DIVIDE([Total Revenue], [Total Orders])
