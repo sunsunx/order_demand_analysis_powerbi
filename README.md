@@ -8,7 +8,7 @@ The dashboard focuses on regional demand, product performance, category contribu
 
 ## Dashboard Preview
 
-![Dashboard Preview](dashboard-preview.png)
+![Dashboard Preview](dashboard_preview.png)
 
 ## Data Model
 
@@ -20,7 +20,7 @@ The Power BI model uses a star-schema approach with:
 - Region dimension
 - Order-level sales fact table
 
-![Data Model](data-model.png)
+![Data Model](data_model.png)
 
 ## Key Metrics
 
