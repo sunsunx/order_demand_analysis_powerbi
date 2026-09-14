@@ -27,7 +27,7 @@ The Power BI model uses a star-schema approach with:
 - Total Revenue: $114.75K
 - Total Orders: 120
 - Average Order Value: $956.27
-- Units Sold: 537
+- Discount Rate: 5.00%
 
 ## Key Insights
 
